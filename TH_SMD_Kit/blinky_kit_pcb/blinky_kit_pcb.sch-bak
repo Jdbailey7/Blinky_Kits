@@ -2582,16 +2582,16 @@ $EndBitmap
 $Comp
 L transistors:1-0000036 Q1
 U 1 1 6077AAAC
-P 4800 4350
-F 0 "Q1" H 4991 4396 50  0000 L CNN
-F 1 "1-0000036" H 5000 4300 50  0001 L CNN
-F 2 "transistors:1-0000036" H 5000 4450 50  0001 C CNN
-F 3 "~" H 4800 4350 50  0001 C CNN
-F 4 "1-0000036" H 4800 4350 50  0001 C CNN "Internal Part Number"
-F 5 "1" H 4800 4350 50  0001 C CNN "Populated"
-F 6 "MMBT3904" H 4991 4305 50  0000 L CNN "PValue"
-	1    4800 4350
-	-1   0    0    1   
+P 4600 4350
+F 0 "Q1" H 4791 4396 50  0000 L CNN
+F 1 "1-0000036" H 4800 4300 50  0001 L CNN
+F 2 "transistors:1-0000036" H 4800 4450 50  0001 C CNN
+F 3 "~" H 4600 4350 50  0001 C CNN
+F 4 "1-0000036" H 4600 4350 50  0001 C CNN "Internal Part Number"
+F 5 "1" H 4600 4350 50  0001 C CNN "Populated"
+F 6 "MMBT3904" H 4791 4305 50  0000 L CNN "PValue"
+	1    4600 4350
+	1    0    0    -1  
 $EndComp
 $Comp
 L transistors:1-0000036 Q2
@@ -2720,7 +2720,7 @@ F 6 "RED" H 4693 2875 50  0000 C CNN "PValue"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L batteries:1-0000494 BT1
+L blinky_kit_pcb-rescue:1-0000494-batteries BT1
 U 1 1 60777445
 P 1000 1400
 F 0 "BT1" H 1118 1496 50  0000 L CNN
@@ -2752,7 +2752,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3750 5200 3750
 Connection ~ 5500 3750
-Connection ~ 5900 3750
 Wire Wire Line
 	5900 2600 6700 2600
 Connection ~ 5900 2600
@@ -2770,10 +2769,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 4150 4700 3750
 Connection ~ 4700 3750
-Wire Wire Line
-	5900 4350 5000 4350
-Wire Wire Line
-	5900 3750 5900 4350
 Wire Wire Line
 	6700 4150 6700 3750
 Connection ~ 6700 3750
@@ -2872,12 +2867,12 @@ Wire Wire Line
 Wire Wire Line
 	1300 2150 1300 2300
 $Comp
-L connectors:1-0000120 J?
+L connectors:1-0000120 J1
 U 1 1 607A99AA
 P 1000 2150
-F 0 "J?" H 918 1825 50  0000 C CNN
+F 0 "J1" H 918 1825 50  0000 C CNN
 F 1 "1-0000120" H 1000 1950 50  0001 C CNN
-F 2 "connectors:1-0000120" H 1000 2150 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief" H 1000 2150 50  0001 C CNN
 F 3 "~" H 1000 2150 50  0001 C CNN
 F 4 "1-0000120" H 1000 2150 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 1000 2150 50  0001 C CNN "Populated"
@@ -2885,4 +2880,11 @@ F 6 "TSW-102-07-T-S" H 918 1916 50  0000 C CNN "PValue"
 	1    1000 2150
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5900 3750 5900 4075
+Wire Wire Line
+	5900 4075 4400 4075
+Wire Wire Line
+	4400 4075 4400 4350
+Connection ~ 5900 3750
 $EndSCHEMATC
