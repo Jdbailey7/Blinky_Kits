@@ -1,4 +1,4 @@
-update=4/14/2021 12:32:51 PM
+update=4/15/2021 1:11:27 PM
 version=1
 last_client=kicad
 [general]
@@ -12,12 +12,22 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=blinky_kit_pcb.net
 CopperLayerCount=2
-BoardThickness=0.04064
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
