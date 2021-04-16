@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# batteries_1-0000494
+# blinky_kit_pcb-rescue_1-0000494-batteries
 #
-DEF batteries_1-0000494 BT 0 0 N N 1 F N
+DEF blinky_kit_pcb-rescue_1-0000494-batteries BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "batteries_1-0000494" 100 0 50 H I L CNN
+F1 "blinky_kit_pcb-rescue_1-0000494-batteries" 100 0 50 H I L CNN
 F2 "batteries:1-0000494" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 F4 "1-0000494" 0 0 50 H I C CNN "Internal Part Number"
