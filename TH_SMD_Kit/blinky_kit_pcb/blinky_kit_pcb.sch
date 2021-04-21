@@ -2664,7 +2664,7 @@ F 6 "33k" V 5900 3250 50  0000 L CNN "PValue"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors_th:1-0000853 C2
+L blinky_kit_pcb-rescue:1-0000853-capacitors_th C2
 U 1 1 60773993
 P 6350 3750
 F 0 "C2" V 6200 3700 50  0000 L CNN
@@ -2678,7 +2678,7 @@ F 6 "10uf" V 6500 3650 50  0000 L CNN "PValue"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitors_th:1-0000853 C1
+L blinky_kit_pcb-rescue:1-0000853-capacitors_th C1
 U 1 1 60774DDD
 P 5050 3750
 F 0 "C1" V 5200 3700 50  0000 L CNN
@@ -2692,7 +2692,7 @@ F 6 "10uf" V 4900 3650 50  0000 L CNN "PValue"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L leds_th:1-0000568 D2
+L blinky_kit_pcb-rescue:1-0000568-leds_th D2
 U 1 1 6077414F
 P 6700 2750
 F 0 "D2" H 6693 2966 50  0000 C CNN
@@ -2706,7 +2706,7 @@ F 6 "RED" H 6693 2875 50  0000 C CNN "PValue"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L leds_th:1-0000568 D1
+L blinky_kit_pcb-rescue:1-0000568-leds_th D1
 U 1 1 60774DCC
 P 4700 2750
 F 0 "D1" H 4693 2966 50  0000 C CNN
@@ -2866,23 +2866,23 @@ Wire Wire Line
 	1200 2150 1300 2150
 Wire Wire Line
 	1300 2150 1300 2300
-$Comp
-L connectors:1-0000120 J1
-U 1 1 607A99AA
-P 1000 2150
-F 0 "J1" H 918 1825 50  0000 C CNN
-F 1 "1-0000120" H 1000 1950 50  0001 C CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief" H 1000 2150 50  0001 C CNN
-F 3 "~" H 1000 2150 50  0001 C CNN
-F 4 "1-0000120" H 1000 2150 50  0001 C CNN "Internal Part Number"
-F 5 "1" H 1000 2150 50  0001 C CNN "Populated"
-F 6 "TSW-102-07-T-S" H 918 1916 50  0000 C CNN "PValue"
-	1    1000 2150
-	-1   0    0    1   
-$EndComp
 Connection ~ 5900 3750
 Wire Wire Line
 	5900 4350 5000 4350
 Wire Wire Line
 	5900 3750 5900 4350
+$Comp
+L np_connectors:NP_Conn_01x02 J?
+U 1 1 608062AB
+P 1000 2150
+F 0 "J?" H 1000 1950 50  0000 C CNN
+F 1 "NP_Conn_01x02" H 1000 1950 50  0001 C CNN
+F 2 "np_connectors:PinHeader_1x02_P2.54mm_Vertical" H 1000 2150 50  0001 C CNN
+F 3 "~" H 1000 2150 50  0001 C CNN
+F 4 "0-0000000" H 1000 2150 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 1000 2150 50  0001 C CNN "Populated"
+F 6 "NP_Conn_01x02" H 1025 2250 50  0000 C CNN "PValue"
+	1    1000 2150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

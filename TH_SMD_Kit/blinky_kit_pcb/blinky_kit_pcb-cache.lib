@@ -23,11 +23,32 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# capacitors_th_1-0000853
+# blinky_kit_pcb-rescue_1-0000568-leds_th
 #
-DEF capacitors_th_1-0000853 C 0 10 N N 1 F N
+DEF blinky_kit_pcb-rescue_1-0000568-leds_th D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "blinky_kit_pcb-rescue_1-0000568-leds_th" 0 -100 50 H I C CNN
+F2 "leds_th:1-0000568" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1-0000568" 0 0 50 H I C CNN "Internal Part Number"
+F5 "1" 0 0 50 H I C CNN "Populated"
+F6 "RED" 25 -100 50 H V C CNN "PValue"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# blinky_kit_pcb-rescue_1-0000853-capacitors_th
+#
+DEF blinky_kit_pcb-rescue_1-0000853-capacitors_th C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "capacitors_th_1-0000853" 25 -100 50 H I L CNN
+F1 "blinky_kit_pcb-rescue_1-0000853-capacitors_th" 25 -100 50 H I L CNN
 F2 "capacitors_th:1-0000853" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1-0000853" 0 0 50 H I C CNN "Internal Part Number"
@@ -46,43 +67,22 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# connectors_1-0000120
+# np_connectors_NP_Conn_01x02
 #
-DEF connectors_1-0000120 J 0 40 Y N 1 F N
+DEF np_connectors_NP_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "connectors_1-0000120" 0 -200 50 H I C CNN
-F2 "connectors:1-0000120" 0 0 50 H I C CNN
+F1 "np_connectors_NP_Conn_01x02" 0 -200 50 H I C CNN
+F2 "np_connectors:PinHeader_1x02_P2.54mm_Vertical" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "1-0000120" 0 0 50 H I C CNN "Internal Part Number"
-F5 "1" 0 0 50 H I C CNN "Populated"
-F6 "TSW-102-07-T-S" 0 0 50 H V C CNN "PValue"
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "NP_Conn_01x02" 0 0 50 H V C CNN "PValue"
 DRAW
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
 S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
 X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# leds_th_1-0000568
-#
-DEF leds_th_1-0000568 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "leds_th_1-0000568" 0 -100 50 H I C CNN
-F2 "leds_th:1-0000568" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "1-0000568" 0 0 50 H I C CNN "Internal Part Number"
-F5 "1" 0 0 50 H I C CNN "Populated"
-F6 "RED" 25 -100 50 H V C CNN "PValue"
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
