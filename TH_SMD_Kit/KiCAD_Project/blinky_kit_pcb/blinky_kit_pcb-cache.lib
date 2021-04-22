@@ -1,16 +1,16 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# blinky_kit_pcb-rescue_1-0000494-batteries
+# batteries_1-0000494
 #
-DEF blinky_kit_pcb-rescue_1-0000494-batteries BT 0 0 N N 1 F N
+DEF batteries_1-0000494 BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "blinky_kit_pcb-rescue_1-0000494-batteries" 100 0 50 H I L CNN
+F1 "batteries_1-0000494" 100 0 50 H I L CNN
 F2 "batteries:1-0000494" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 F4 "1-0000494" 0 0 50 H I C CNN "Internal Part Number"
 F5 "1" 0 0 50 H I C CNN "Populated"
-F6 "CR232" 0 0 50 H V C CNN "PValue"
+F6 "CR2032" 0 0 50 H V C CNN "PValue"
 DRAW
 S -90 70 90 60 0 1 0 F
 S -62 47 58 27 0 1 0 F
@@ -86,6 +86,21 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# misc_barepcb
+#
+DEF misc_barepcb PCB 0 40 Y Y 1 F N
+F0 "PCB" -100 150 50 H V C CNN
+F1 "misc_barepcb" 0 0 50 H V C CNN
+F2 "misc:barepcb" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0-0000000" 0 0 50 H I C CNN "Internal Part Number"
+F5 "0" 0 0 50 H I C CNN "Populated"
+F6 "Bare PCB" 0 0 50 H I C CNN "PValue"
+DRAW
+S -200 100 200 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -96,6 +111,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

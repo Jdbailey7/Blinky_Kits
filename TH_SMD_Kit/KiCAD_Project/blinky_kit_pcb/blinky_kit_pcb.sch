@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "GEARS Blinky Kit"
-Date "2021-04-14"
+Title "TH and SMD Blinky Kit"
+Date "2021-04-21"
 Rev "1.0"
 Comp "Leeman Geophysical LLC"
 Comment1 "(479) 373-3736"
@@ -2582,16 +2582,16 @@ $EndBitmap
 $Comp
 L transistors:1-0000036 Q1
 U 1 1 6077AAAC
-P 4600 4350
-F 0 "Q1" H 4791 4396 50  0000 L CNN
-F 1 "1-0000036" H 4800 4300 50  0001 L CNN
-F 2 "transistors:1-0000036" H 4800 4450 50  0001 C CNN
-F 3 "~" H 4600 4350 50  0001 C CNN
-F 4 "1-0000036" H 4600 4350 50  0001 C CNN "Internal Part Number"
-F 5 "1" H 4600 4350 50  0001 C CNN "Populated"
-F 6 "MMBT3904" H 4791 4305 50  0000 L CNN "PValue"
-	1    4600 4350
-	1    0    0    -1  
+P 4800 4350
+F 0 "Q1" H 4991 4396 50  0000 L CNN
+F 1 "1-0000036" H 5000 4300 50  0001 L CNN
+F 2 "transistors:1-0000036" H 5000 4450 50  0001 C CNN
+F 3 "~" H 4800 4350 50  0001 C CNN
+F 4 "1-0000036" H 4800 4350 50  0001 C CNN "Internal Part Number"
+F 5 "1" H 4800 4350 50  0001 C CNN "Populated"
+F 6 "MMBT3904" H 4991 4305 50  0000 L CNN "PValue"
+	1    4800 4350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L transistors:1-0000036 Q2
@@ -2720,7 +2720,7 @@ F 6 "RED" H 4693 2875 50  0000 C CNN "PValue"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L blinky_kit_pcb-rescue:1-0000494-batteries BT1
+L batteries:1-0000494 BT1
 U 1 1 60777445
 P 1000 1400
 F 0 "BT1" H 1118 1496 50  0000 L CNN
@@ -2729,7 +2729,7 @@ F 2 "batteries:1-0000494" V 1000 1460 50  0001 C CNN
 F 3 "~" V 1000 1460 50  0001 C CNN
 F 4 "1-0000494" H 1000 1400 50  0001 C CNN "Internal Part Number"
 F 5 "1" H 1000 1400 50  0001 C CNN "Populated"
-F 6 "CR232" H 1118 1405 50  0000 L CNN "PValue"
+F 6 "CR2032" H 1118 1405 50  0000 L CNN "PValue"
 	1    1000 1400
 	1    0    0    -1  
 $EndComp
@@ -2870,21 +2870,77 @@ $Comp
 L connectors:1-0000120 J1
 U 1 1 607A99AA
 P 1000 2150
-F 0 "J1" H 918 1825 50  0000 C CNN
-F 1 "1-0000120" H 1000 1950 50  0001 C CNN
+F 0 "J1" H 1125 2100 50  0000 C CNN
+F 1 "2 Pos" H 1000 1950 50  0001 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief" H 1000 2150 50  0001 C CNN
 F 3 "~" H 1000 2150 50  0001 C CNN
-F 4 "1-0000120" H 1000 2150 50  0001 C CNN "Internal Part Number"
-F 5 "1" H 1000 2150 50  0001 C CNN "Populated"
-F 6 "TSW-102-07-T-S" H 918 1916 50  0000 C CNN "PValue"
+F 4 "0-0000000" H 1000 2150 50  0001 C CNN "Internal Part Number"
+F 5 "0" H 1000 2150 50  0001 C CNN "Populated"
+F 6 "TSW-102-07-T-S" H 918 1916 50  0001 C CNN "PValue"
 	1    1000 2150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5900 3750 5900 4075
-Wire Wire Line
-	5900 4075 4400 4075
-Wire Wire Line
-	4400 4075 4400 4350
 Connection ~ 5900 3750
+Wire Wire Line
+	5900 4350 5000 4350
+Wire Wire Line
+	5900 3750 5900 4350
+$Comp
+L power:VCC #PWR0107
+U 1 1 6081057B
+P -1450 900
+F 0 "#PWR0107" H -1450 750 50  0001 C CNN
+F 1 "VCC" H -1435 1073 50  0000 C CNN
+F 2 "" H -1450 900 50  0001 C CNN
+F 3 "" H -1450 900 50  0001 C CNN
+	1    -1450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 608108C3
+P -950 900
+F 0 "#PWR0108" H -950 650 50  0001 C CNN
+F 1 "GND" H -945 727 50  0000 C CNN
+F 2 "" H -950 900 50  0001 C CNN
+F 3 "" H -950 900 50  0001 C CNN
+	1    -950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60810CC2
+P -1450 900
+F 0 "#FLG0101" H -1450 975 50  0001 C CNN
+F 1 "PWR_FLAG" H -1450 1073 50  0000 C CNN
+F 2 "" H -1450 900 50  0001 C CNN
+F 3 "~" H -1450 900 50  0001 C CNN
+	1    -1450 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60811411
+P -950 900
+F 0 "#FLG0102" H -950 975 50  0001 C CNN
+F 1 "PWR_FLAG" H -950 1073 50  0000 C CNN
+F 2 "" H -950 900 50  0001 C CNN
+F 3 "~" H -950 900 50  0001 C CNN
+	1    -950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L misc:barepcb PCB1
+U 1 1 60812638
+P 10575 6350
+F 0 "PCB1" H 10500 6400 50  0000 L CNN
+F 1 "barepcb" H 10425 6300 50  0000 L CNN
+F 2 "misc:barepcb" H 10575 6350 50  0001 C CNN
+F 3 "" H 10575 6350 50  0001 C CNN
+F 4 "3-0000080" H 10575 6350 50  0001 C CNN "Internal Part Number"
+F 5 "1" H 10575 6350 50  0001 C CNN "Populated"
+F 6 "Bare PCB" H 10575 6350 50  0001 C CNN "PValue"
+	1    10575 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

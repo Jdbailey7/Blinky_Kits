@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jleeman\git_repos\Blinky_Kits\TH_SMD_Kit\blinky_kit_pcb\blinky_kit_pcb.sch</source>
+    <date>4/21/2021 9:18:43 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TH and SMD Blinky Kit</title>
+        <company>Leeman Geophysical LLC</company>
+        <rev>1.0</rev>
+        <date>2021-04-21</date>
+        <source>blinky_kit_pcb.sch</source>
+        <comment number="1" value="(479) 373-3736"/>
+        <comment number="2" value="Siloam Springs, Ar 72761"/>
+        <comment number="3" value="850 South Lincoln St."/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>1-0000036</value>
+      <footprint>transistors:1-0000036</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000036</field>
+        <field name="PValue">MMBT3904</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="transistors" part="1-0000036" description="Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 250mW Surface Mount TO-236AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077AAAC</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>1-0000036</value>
+      <footprint>transistors:1-0000036</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000036</field>
+        <field name="PValue">MMBT3904</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="transistors" part="1-0000036" description="Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 250mW Surface Mount TO-236AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077B722</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1-0000551</value>
+      <footprint>resistors_0805:1-0000551</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000551</field>
+        <field name="PValue">1k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0805" part="1-0000551" description="1k Ohm Resistor 0805 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077FB4D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1-0000551</value>
+      <footprint>resistors_0805:1-0000551</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000551</field>
+        <field name="PValue">1k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0805" part="1-0000551" description="1k Ohm Resistor 0805 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607804B6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1-0000548</value>
+      <footprint>resistors_0805:1-0000548</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000548</field>
+        <field name="PValue">33k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0805" part="1-0000548" description="33k Ohm Resistor 0805 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60780D96</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1-0000548</value>
+      <footprint>resistors_0805:1-0000548</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000548</field>
+        <field name="PValue">33k</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="resistors_0805" part="1-0000548" description="33k Ohm Resistor 0805 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078178F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1-0000853</value>
+      <footprint>capacitors_th:1-0000853</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000853</field>
+        <field name="PValue">10uf</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_th" part="1-0000853" description="CAP ALUM 10UF 20% 16V RADIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60773993</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1-0000853</value>
+      <footprint>capacitors_th:1-0000853</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000853</field>
+        <field name="PValue">10uf</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="capacitors_th" part="1-0000853" description="CAP ALUM 10UF 20% 16V RADIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60774DDD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1-0000568</value>
+      <footprint>leds_th:1-0000568</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000568</field>
+        <field name="PValue">RED</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="leds_th" part="1-0000568" description="TH Light emitting diode RED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077414F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1-0000568</value>
+      <footprint>leds_th:1-0000568</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000568</field>
+        <field name="PValue">RED</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="leds_th" part="1-0000568" description="TH Light emitting diode RED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60774DCC</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>1-0000494</value>
+      <footprint>batteries:1-0000494</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">1-0000494</field>
+        <field name="PValue">CR2032</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="batteries" part="1-0000494" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60777445</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2 Pos</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="PValue">TSW-102-07-T-S</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="connectors" part="1-0000120" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A99AA</tstamp>
+    </comp>
+    <comp ref="PCB1">
+      <value>barepcb</value>
+      <footprint>misc:barepcb</footprint>
+      <fields>
+        <field name="Internal Part Number">3-0000080</field>
+        <field name="PValue">Bare PCB</field>
+        <field name="Populated">1</field>
+      </fields>
+      <libsource lib="misc" part="barepcb" description="Bare PCB BOM Item"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60812638</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="batteries" part="1-0000494">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">1-0000494</field>
+        <field name="Footprint">batteries:1-0000494</field>
+        <field name="Internal Part Number">1-0000494</field>
+        <field name="Populated">1</field>
+        <field name="PValue">CR2032</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_th" part="1-0000853">
+      <description>CAP ALUM 10UF 20% 16V RADIAL</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1-0000853</field>
+        <field name="Footprint">capacitors_th:1-0000853</field>
+        <field name="Internal Part Number">1-0000853</field>
+        <field name="Populated">1</field>
+        <field name="PValue">10uf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="1-0000120">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1-0000120</field>
+        <field name="Footprint">connectors:1-0000120</field>
+        <field name="Internal Part Number">1-0000120</field>
+        <field name="Populated">1</field>
+        <field name="PValue">TSW-102-07-T-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="leds_th" part="1-0000568">
+      <description>TH Light emitting diode RED</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1-0000568</field>
+        <field name="Footprint">leds_th:1-0000568</field>
+        <field name="Internal Part Number">1-0000568</field>
+        <field name="Populated">1</field>
+        <field name="PValue">RED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc" part="barepcb">
+      <description>Bare PCB BOM Item</description>
+      <fields>
+        <field name="Reference">PCB</field>
+        <field name="Value">barepcb</field>
+        <field name="Footprint">misc:barepcb</field>
+        <field name="Internal Part Number">0-0000000</field>
+        <field name="Populated">0</field>
+        <field name="PValue">Bare PCB</field>
+      </fields>
+    </libpart>
+    <libpart lib="resistors_0805" part="1-0000548">
+      <description>33k Ohm Resistor 0805 1%</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000548</field>
+        <field name="Footprint">resistors_0805:1-0000548</field>
+        <field name="Internal Part Number">1-0000548</field>
+        <field name="Populated">1</field>
+        <field name="PValue">33k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_0805" part="1-0000551">
+      <description>1k Ohm Resistor 0805 1%</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-0000551</field>
+        <field name="Footprint">resistors_0805:1-0000551</field>
+        <field name="Internal Part Number">1-0000551</field>
+        <field name="Populated">1</field>
+        <field name="PValue">1k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="1-0000036">
+      <description>Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 250mW Surface Mount TO-236AB</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">1-0000036</field>
+        <field name="Footprint">transistors:1-0000036</field>
+        <field name="Internal Part Number">1-0000036</field>
+        <field name="Populated">1</field>
+        <field name="PValue">MMBT3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="batteries">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\batteries.lib</uri>
+    </library>
+    <library logical="capacitors_th">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\capacitors_th.lib</uri>
+    </library>
+    <library logical="connectors">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\connectors.lib</uri>
+    </library>
+    <library logical="leds_th">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\leds_th.lib</uri>
+    </library>
+    <library logical="misc">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\misc.lib</uri>
+    </library>
+    <library logical="resistors_0805">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\resistors_0805.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Users\jleeman\git_repos\LGEO_KiCAD_Library\symbols\transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="D2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+  </nets>
+</export>
